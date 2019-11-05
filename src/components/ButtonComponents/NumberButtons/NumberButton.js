@@ -1,7 +1,8 @@
 import React from "react";
+import "../../../../src/App.css";
 import {numbers} from "../../../data";
 
-const NumberButton = (props) => {
+const NumberButton = props => {
   // console.log(NumberButton);
   return (
     <button className="number-button" onClick={

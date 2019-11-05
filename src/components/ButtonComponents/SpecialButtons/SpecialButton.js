@@ -1,7 +1,8 @@
 import React from "react";
+import "../../../../src/App.css";
 
 const SpecialButton = props => {
-  console.log("SpecialButton props", props)
+  
 
   return (
     <button>
