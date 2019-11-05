@@ -1,9 +1,9 @@
 import React from "react";
+import {display} from "../../App.css";
 
-const Display = () => {
+const Display = props => {
   return <div className="display">
-  {/* Display any props data here */}
-    
+  {props.value}
   </div>;
 };
 
